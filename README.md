@@ -1,8 +1,6 @@
 # WN10-CC-000185
 STIG Implementation WN10-CC-000185
 
-STIG Implementation WN10-CC-000185
-
 <# .SYNOPSIS Script checks for, and creates it not existing, the NoAutoRun key in HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer
 
 .NOTES 
