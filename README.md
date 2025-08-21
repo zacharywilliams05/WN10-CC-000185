@@ -1,26 +1,30 @@
 # WN10-CC-000185
 STIG Implementation WN10-CC-000185
 
-<# .SYNOPSIS Script checks for, and creates it not existing, the NoAutoRun key in HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer
+<# 
+.SYNOPSIS 
+Script checks for, and creates if not existing, the NoAutoRun key in HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer
 
 .NOTES 
-Author : Zachary Williams 
-LinkedIn : linkedin.com/in/zacharywilliams05/ 
-GitHub : github.com/zacharywilliams05 
-Date Created : 2025-08-21 
-Last Modified : 2024-08-21
-Version : 1.0 
-CVEs : N/A Plugin 
-IDs : N/A 
+Author : Zachary Williams  
+LinkedIn : [linkedin.com/in/zacharywilliams05/](https://linkedin.com/in/zacharywilliams05/)  
+GitHub : [github.com/zacharywilliams05](https://github.com/zacharywilliams05)  
+Date Created : 2025-08-21  
+Last Modified : 2024-08-21  
+Version : 1.0  
+CVEs : N/A  
+Plugin IDs : N/A  
 STIG-ID : WN10-CC-000185
 
 .TESTED ON 
-Date(s) Tested : 
-Tested By : 
-Systems Tested : 
-PowerShell Ver. :
+Date(s) Tested :  
+Tested By :  
+Systems Tested :  
+PowerShell Ver. :  
 
-.USAGE PS C:> .__remediation_template(STIG-ID-WN10-CC-000185).ps1 #>
+.USAGE 
+PS C:> .\remediation_template(STIG-ID-WN10-CC-000185).ps1 
+#>
 
 ```powershell
 # You may need to modify your Execution policy with
